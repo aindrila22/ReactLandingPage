@@ -71,10 +71,10 @@ const Footer = () => {
           <SocialMedia>
             <SocialMediaWrap>
               <SocialLogo to="/" onClick={toggleHome}>
-                Dolla
+                LaVarn
               </SocialLogo>
               <WebsiteRights>
-                Dolla © {new Date().getFullYear()} All rights reserved
+                LaVarn © {new Date().getFullYear()} All rights reserved
               </WebsiteRights>
               <SocialIcons>
                 <SocialIconLink href="/" target="_blank" arial-label="FaceBook">

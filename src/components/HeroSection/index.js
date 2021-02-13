@@ -11,7 +11,7 @@ import {
   ArrowRight,
   ArrowForward,
 } from "./HeroElement";
-import Video from "../../videos/video.mp4";
+import Video from "../../videos/video1.mp4";
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -25,10 +25,9 @@ const HeroSection = () => {
           <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
         </HeroBg>
         <HeroContent>
-          <HeroH1>Virtual Banking Made Easy</HeroH1>
+          <HeroH1>Unlimited Transactions At Zero Hidden Cost</HeroH1>
           <HeroP>
-            Sign Up for a new account today and receive $250 in credit towards
-            your next payment
+            Sign Up for a new account today and receive special offers in credit
           </HeroP>
           <HeroBtnWrapper>
             <Button

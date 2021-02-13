@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
-import img2 from "../images/svg2.svg";
-import img3 from "../images/svg3.svg";
-import img4 from "../images/svg4.svg";
+import img2 from "../images/svg8.svg";
+import img3 from "../images/svg7.svg";
+import img4 from "../images/svg6.svg";
 
 import {
   homeObjOne,

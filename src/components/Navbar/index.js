@@ -38,7 +38,7 @@ function Navbar({ toggle }) {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              Dolla
+              LaVarn
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -94,7 +94,7 @@ function Navbar({ toggle }) {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin">Sign-In</NavBtnLink>
+              <NavBtnLink to="/signin">SignIn</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
